@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/biruatas"
+    android:paddingRight="0dp"
+    android:paddingLeft="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context=".loginreg">
+
+    <ImageView
+        android:id="@+id/artbawah"
+        android:layout_width="581dp"
+        android:layout_height="428dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-85dp"
+        android:layout_marginEnd="-99dp"
+        android:layout_marginBottom="-126dp"
+        app:srcCompat="@drawable/gambarbawah" />
+
+    <ImageView
+        android:id="@+id/botol"
+        android:layout_width="239dp"
+        android:layout_height="575dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="-108dp"
+        app:srcCompat="@drawable/botol" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="316dp"
+        android:layout_height="291dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="555dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/loginreg"
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="495dp"
+        app:srcCompat="@drawable/loginreg" />
+
+    <ImageView
+        android:id="@+id/alamhidup"
+        android:layout_width="176dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="388dp"
+        app:srcCompat="@drawable/textpage2" />
+
+</RelativeLayout>
