@@ -11,33 +11,23 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class loginreg extends AppCompatActivity {
-    private ImageButton tombollogin;
-    private ImageButton tombolregis;
+public class login extends AppCompatActivity {
+
+    private ImageButton backarrow;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_loginreg);
-        tombollogin=findViewById(R.id.tombollogin);
-        tombollogin.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_login);
+        backarrow=findViewById(R.id.backarrow);
+        backarrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(loginreg.this, login.class);
+                Intent intent=new Intent(login.this, loginreg.class);
                 startActivity(intent);
             }
         });
-
-        tombolregis=findViewById(R.id.tombolregis);
-        tombolregis.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(loginreg.this, register.class);
-                startActivity(intent);
-            }
-        });
-
 
 
 

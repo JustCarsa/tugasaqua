@@ -20,10 +20,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="-47dp"
-        android:layout_marginTop="243dp"
-        android:layout_marginEnd="-4dp"
-        android:layout_marginBottom="-78dp"
+        android:layout_marginStart="-43dp"
+        android:layout_marginTop="266dp"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginBottom="-101dp"
         app:srcCompat="@drawable/bawah" />
 
     <ImageView
@@ -32,8 +32,9 @@
         android:layout_height="702dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="42dp"
-        android:layout_marginBottom="-323dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="-305dp"
         app:srcCompat="@drawable/botol" />
 
     <ImageView
@@ -44,12 +45,11 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="-103dp"
-        android:layout_marginTop="-161dp"
-        android:layout_marginEnd="-152dp"
-        android:layout_marginBottom="92dp"
+        android:layout_marginStart="-105dp"
+        android:layout_marginTop="-211dp"
+        android:layout_marginEnd="-150dp"
+        android:layout_marginBottom="142dp"
         app:srcCompat="@drawable/logoterang" />
-
 
     <ImageView
         android:id="@+id/kebaikan"
@@ -59,10 +59,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="99dp"
-        android:layout_marginTop="284dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginBottom="357dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="259dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="400dp"
         app:srcCompat="@drawable/textatas1" />
 
     <ImageView
@@ -71,8 +71,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="136dp"
-        android:layout_marginBottom="364dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="380dp"
         app:srcCompat="@drawable/textbawah1" />
 
     <ImageButton
@@ -81,8 +82,9 @@
         android:layout_height="61dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="167dp"
-        android:layout_marginBottom="275dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="280dp"
         android:background="@drawable/tombol"
         app:srcCompat="@drawable/tombol" />
 
