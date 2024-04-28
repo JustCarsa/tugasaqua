@@ -15,7 +15,9 @@ import androidx.core.view.WindowInsetsCompat;
 public class register extends AppCompatActivity {
 
     private ImageButton backarrow;
+    private ImageButton regtologin;
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
@@ -28,5 +30,22 @@ public class register extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        regtologin=findViewById(R.id.regtologin);
+        regtologin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(register.this, login.class);
+                startActivity(intent);
+            }
+        });
+
+
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
     }
+}
 }

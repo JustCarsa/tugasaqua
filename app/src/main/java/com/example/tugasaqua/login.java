@@ -30,6 +30,14 @@ public class login extends AppCompatActivity {
         });
 
 
+        loginkedalem=findViewById(R.id.loginkedalem);
+        loginkedalem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(login.this, MainMenu.class);
+                startActivity(intent);
+            }
+        });
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
